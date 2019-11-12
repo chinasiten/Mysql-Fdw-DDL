@@ -26,7 +26,7 @@ Usage
    print(m.get_create_statment())
 ```
 
-will generate 
+will generate:
 
 
 ```sql
@@ -37,7 +37,7 @@ CREATE FOREIGN TABLE loandb.dl_tag (
 	type integer) server tidb OPTIONS (dbname 'loandb', table_name 'dl_tag');
 ```
 
-which orignal ddl is:
+which original ddl is:
 ```sql
 CREATE TABLE `dl_tag` (
   `id` tinyint(2) unsigned NOT NULL AUTO_INCREMENT,
